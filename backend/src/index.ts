@@ -11,9 +11,11 @@ app.use("*", logger());
 app.use(
   "*",
   cors({
-    origin: process.env.NODE_ENV === "production" 
-      ? process.env.FRONTEND_URL || "https://your-frontend-url.vercel.app" 
-      : "http://localhost:4321", // Astro dev server
+    origin:
+      process.env.NODE_ENV === "production"
+        ? process.env.FRONTEND_URL ||
+          "7wonder-scribe-frontend-n32qahtb7-barroqts-projects.vercel.app"
+        : "http://localhost:4321", // Astro dev server
     credentials: true,
   })
 );
