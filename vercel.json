@@ -1,0 +1,13 @@
+{
+  "github": {
+    "silent": true
+  },
+  "buildConfig": {
+    "backend": {
+      "path": "backend"
+    },
+    "frontend": {
+      "path": "frontend"
+    }
+  }
+}
