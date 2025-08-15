@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { prisma } from "../db";
-import { gameSchema } from "../../../shared/schemas";
+import { gameSchema } from "../schemas";
 
 const app = new Hono();
 
