@@ -1,9 +1,9 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { logger } from "hono/logger";
-import playersRoutes from "./routes/players.ts";
-import gamesRoutes from "./routes/games.ts";
-import statsRoutes from "./routes/stats.ts";
+import playersRoutes from "./routes/players";
+import gamesRoutes from "./routes/games";
+import statsRoutes from "./routes/stats";
 
 const app = new Hono();
 
